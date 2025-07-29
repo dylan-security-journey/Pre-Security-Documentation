@@ -301,3 +301,39 @@ Stateful: This type of firewall uses entire information from connection, instead
 Stateless: This firewall type uses static set of rules to determine whether individual packets are acceptable or not, if device sends bad packet then entire device won't be blocked, use much fewer resources but much dumber (only effective depending on rules that define them) (great at receiving large amounts of traffic from host DDOS)
 
 ## VPN Basics
+
+Virtual Private Network (VPN) technology that allows devices on separate networks to communicate securly by creating dedicated path between each other over the internet (tunnel), devices connected within tunnel form their own private network
+
+Benefits
+
+Allow networks in different geographic locations to be connected: Businesses with multiple offices, resources like servers can be accessed from another office
+
+Offers privacy: VPN uses encryption to protect data, only be understood between devices it was sent from and destined for (not vulnerable to sniffing), useful in places with public wifi to protect your trafic from being viewed by others due to no encryption
+
+Offers anonymity: Journalist/activitst depend upon VPNs to safely report global issues in coutries where freedom of speech is controlled, usually traffic can be viewed by your ISP (tracked), level of anonymity a VPN provides is only as much as how other devices on the network respect privacy
+
+VPN Technology 
+
+PPP: Technology used by PPTP to allow for authentication and provide encryption of data, VPNs work by using private key and public certificate similar to SSH (private key & certificate must match to connect), not capable of leaving network by itself (non-routable)
+
+PPTP: Point-to-Point Tunneling Protocol allows data from PPP to travel and leave network, easy to set up and supported by most devices, however weakly encrypted compared to alternatives
+
+IPSec: Internet Protocol Security encrypts all data using existing IP framework, difficult to set up, however successful in strong encryption and supported by many devices
+
+## LAN Networking Devices
+
+Router
+
+Router's job to connect networks and pass data between them, routing is label given to process data traveling across networks, creating a path between networks so that data can be sucessfully delivered (Operate at Layer 3)
+
+Have a interactive feature like website or console that allows administrators to configure various rules like port forwarding or firewalling, useful when devices are connected by many paths
+
+Routers are not the same as switches, what path is taken is determined by path shortest, path most reliable, path has faster medium (copper/fibre)
+
+Switch
+
+A switch is a dedicated networking device responsible for providing means of connecting to multiple devices, facilitate many devices (3-63) using Ethernet cables (operate layer 2 & 3)
+
+Exclusive that layer 2 switches cannot operate at layer 3, layer 2 switches responsible for forwarding frames to correct devices vs layer 3 switches can perform some capabilities of a router like send frames to devices and route packets to other devices using IP protocols
+
+VLAN (Virtual Local Area Network) allows specific devices withina netowrk to be virtually split up, benefit from internet connection but treated separately providing security (dictate how specific devices communicate)
