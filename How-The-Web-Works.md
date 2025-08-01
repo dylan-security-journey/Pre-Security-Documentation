@@ -30,4 +30,18 @@ TXT Record: free text fields data can be stored, list servers that have authorit
 
 ## Making a Request
 
+What happens when you make a DNS request?
+
+Requesting a domain name, computer checks local cache to see if previously viewed, if not then request to your Recursive DNS server will be made
+
+Recursive DNS server is provided by ISP, server has local cache of recently looked up popular domains that if results found sent back to computer and request ends (Twitter/Google)
+
+If request not found locally, journey of starting with internet's root DNS servers
+
+Root server acts as DNS backbone to redirect you to top-level domain depending on request like (.com) and referred to proper TLD server that deals with .com addresses
+
+TLD server holds record of where to find authoritative server to answer DNS request (nameserver), multiple nameservers for a domain name in case one goes down and need back up
+
+Authoritative DNS server responsible for storing DNS records for particular domain name and any updates to it, DNS record sent back to recursive DNS for local copy cached for future request, all DNS records come with TTL (Time To Live) number represented in seconds that response saved for locally until looked up again (caching saves)
+
 
