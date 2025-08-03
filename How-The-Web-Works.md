@@ -131,11 +131,55 @@ Line 6: HTTP response contains blank line to confirm end of response
 
 Line 7-14: information has been requested
 
-## HTTP Method
+## HTTP Methods
 
+Way for client to show their intended action when making request
 
+GET Request: getting information from web server
 
+POST Request: submitting data to web server and potentially create new records
 
+PUT Request: submitting data to web server to update information
+
+DELETE Request: deleting information/record from a web server
+
+## HTTP Status Codes
+
+Status codes can be broken down into 5 ranges
+
+100-199 - Information Response: first part of request accepted and continue sending rest of request
+
+200-299 - Success: tell client request was succcessful
+
+300-399 - Redirection: redirect client's request to another resource
+
+400-499 - Client Errors: inform client there was an error with request
+
+500-599 - Server Errors: errors occurring on server-side
+
+Most common HTTP responses likely to come across
+
+200 - OK: completed successfully
+
+201 - Created: resource has been created
+
+301 - Moved Permanently: redirect client browsers
+
+302 - Found:  only temporaru change and may change again
+
+400 - Bad Request: missing in request, missing parameter
+
+401 - Not Authorized: not currently allowed to view
+
+403 - Forbidden: do not have permission
+
+405 - Method Not Allowed: does not allow method of request
+
+404 - Page not Found: does not exist
+
+500 - Internal Service Error: error with your request
+
+503 - Service Unavailable: overloaded or down for maintenance
 
 
 
