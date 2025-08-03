@@ -263,7 +263,11 @@ when a website doesn't properly protect sensitive clear-text information to end-
 
 Can see HTML tags from "view the page source", web developer forget to remove login credential, HTML commets with temporary credentials
 
+## HTML Injection
 
+when unfiltered user input is displayed on page, website fails to sanitize user input, inject HTML code into vulnerable webstie
+
+Client-side where user inputs into a website frontened and input sanitization is important, controlling page appearance and functionality
 
 
 
