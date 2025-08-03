@@ -213,6 +213,17 @@ Content-Encoding: method used to compress data to make it smaller when sending o
 
 Small piece of data stored on computer, "Set-Cookie", HTTP is stateless, cookies help remind web server who you are, common for website authentication, cookie value is token and isn't easily humanly guessable
 
+## How websites work
+
+Your browser makes request to web server asking for information about page you're visiting, responds with data browser uses to show you the page, web server is just dedicated computer somewhere else in world that handles your request
+
+Two main components that make up website:
+
+Front End (Client-Side) - way your browser renders a website
+
+Back End (Server-Side) - a server that processes your request and returns a response
+
+## HTML
 
 
 
