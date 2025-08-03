@@ -251,6 +251,12 @@ Tags can contain attributes to style elements or src attribute used on images to
 
 Elements must have different ID's to identigy them uniquely, to identify it by JavaScript
 
+## JavaScript
+
+(JS) allow pages to become interactive, pages would be static without JS, can be loaded within "<script>" tags or included remotely with the src attribute
+
+JS can find HTMl elements of id and change it's content, onclick and onhover when buttons are clicked
+
 
 
 
