@@ -257,7 +257,11 @@ Elements must have different ID's to identigy them uniquely, to identify it by J
 
 JS can find HTMl elements of id and change it's content, onclick and onhover when buttons are clicked
 
+## Sensitive Data Exposure
 
+when a website doesn't properly protect sensitive clear-text information to end-usres, found in site's fronted source code
+
+Can see HTML tags from "view the page source", web developer forget to remove login credential, HTML commets with temporary credentials
 
 
 
