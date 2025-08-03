@@ -209,6 +209,10 @@ Content-Type: tells client what type of data is being returned
 
 Content-Encoding: method used to compress data to make it smaller when sending over
 
+## Cookies
+
+Small piece of data stored on computer, "Set-Cookie", HTTP is stateless, cookies help remind web server who you are, common for website authentication, cookie value is token and isn't easily humanly guessable
+
 
 
 
