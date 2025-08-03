@@ -225,6 +225,32 @@ Back End (Server-Side) - a server that processes your request and returns a resp
 
 ## HTML
 
+HTML build websites and define structure
+
+CSS to make websites look pretty by adding style options
+
+JavaScript implements complex features on pages using interactivity
+
+HyperText Markup Language (HTML) is language websites are written in, elements known as tags are building blocks of HTML pages and tell browsers how to display content
+
+The "<!DOCTYPE html>" define page is in HTML5
+
+The "<html>" is root element of HTML page, all other elements come after this element
+
+The "<head>" contains information about page
+
+The "<body>" defines HTML document's body
+
+The "<h1>" element defines a large heading
+
+The "<p>" element defines a paragraph
+
+There are tags for buttons and images and list, etc.
+
+Tags can contain attributes to style elements or src attribute used on images to specify location of image, can have multiple attributes
+
+Elements must have different ID's to identigy them uniquely, to identify it by JavaScript
+
 
 
 
