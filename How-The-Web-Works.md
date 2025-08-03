@@ -181,6 +181,51 @@ Most common HTTP responses likely to come across
 
 503 - Service Unavailable: overloaded or down for maintenance
 
+## Headers
+
+Headers are additional bits of data you send to web server when making request, helps with proper view
+
+Common Request Headers
+
+Host: providing host headers can tell which one you require
+
+User-Agent: tells web-server your browser software for proper format
+
+Content-Length: tells web server how much data to expect
+
+Accept-Encoding: tells web-server types of compression methods browser support for trasmitting
+
+Cookie: data sent to server to help remember your information
+
+Common Response Headers
+
+headers returned to client from server after a request
+
+Set-Cookie: Information to store which sent back to web server
+
+Cache-Control: how long to store content of response 
+
+Content-Type: tells client what type of data is being returned
+
+Content-Encoding: method used to compress data to make it smaller when sending over
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
