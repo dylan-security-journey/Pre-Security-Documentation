@@ -45,6 +45,16 @@ grep to search entire contents of this file for any entries of the value we are 
 
 <img width="1468" height="152" alt="image" src="https://github.com/user-attachments/assets/7e325b59-b302-4c43-9cd3-03cf44dc3ad5" />
 
+## An Introduction to Shell Operators
+
+&: allows to run commands in background of terminal
+
+&&: allows combine multiple commands together in one line of your terminal
+
+>: redirector, take output from command and direct it elsewhere
+
+>>: appends output rather than replacing (nothing is overwritten)
+
 
 
 
