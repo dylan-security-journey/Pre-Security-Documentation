@@ -289,7 +289,27 @@ Databases: webservers can communicate with databases to store and recall data fr
 
 WAF (Web Application Firewall): sits between web request and web server, purpose to protect webserver from hacking (request from real browser or bot), checks for rate limiting (excessive amount of web request)
 
+## How Web Servers Work
 
+web server is software that listens for incoming connection and utilizes HTTP to deliver web content to clients,common webservers are APache, Nginx, and IIS
+
+web server delivers files from called root directory in software settings
+
+Viirtual Hosts
+
+web servers can host multiple websites with different domain names through virtual host, text-based configuration files, if not match default website will be provided
+
+Static vs Dynamic Content
+
+static content is content that never changes like pictures, directly served from webserver with no changes made to them
+
+Dynamic content could change with different request, latest entries, word sensitivity searches
+
+Backend is changes you end up seeing through scripting, everything you see is called frontend
+
+Scripting and Backend languages
+
+PHP, Python, Ruby, NodeJS, Perl, interact with databases and process data
 
 
 
