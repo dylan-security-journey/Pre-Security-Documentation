@@ -51,9 +51,9 @@ grep to search entire contents of this file for any entries of the value we are 
 
 &&: allows combine multiple commands together in one line of your terminal
 
->: redirector, take output from command and direct it elsewhere
+(>): redirector, take output from command and direct it elsewhere
 
->>: appends output rather than replacing (nothing is overwritten)
+(>>): appends output rather than replacing (nothing is overwritten)
 
 
 
