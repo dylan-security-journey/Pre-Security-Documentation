@@ -269,9 +269,25 @@ when unfiltered user input is displayed on page, website fails to sanitize user 
 
 Client-side where user inputs into a website frontened and input sanitization is important, controlling page appearance and functionality
 
+## Putting it All Together
 
+when you request a website, your computer needs to know server's IP address and it uses DNS
 
+you computer talks to web server using HTTP protocol then webserver returns HTML/JavaScript/CSS and images which your browser then uses to correctly format
 
+## Other Components
+
+when website traffic is high and needs high availability, load balancers ensure high traffic websits can handle load and providing failover if server is unresponsive
+
+Load balancer decides best way to forward request amongst multiple servers, round-robin is algorithm that send it to each server, weighted checks how many request a server is currently dealing with and send to least busy server
+
+Load balancers also perform periodic checks with each server known as health check, load balancers can also stop sending traffic until it responds appropriately again
+
+CDN (Content Delivery Networks): helps cutting down traffic to busy website by allowing you host static  files across thousands of server, nearest server physically located
+
+Databases: webservers can communicate with databases to store and recall data from them (MySQL, MSSQL)
+
+WAF (Web Application Firewall): sits between web request and web server, purpose to protect webserver from hacking (request from real browser or bot), checks for rate limiting (excessive amount of web request)
 
 
 
