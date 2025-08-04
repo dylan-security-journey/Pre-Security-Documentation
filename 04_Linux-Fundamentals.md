@@ -55,6 +55,11 @@ grep to search entire contents of this file for any entries of the value we are 
 
 (>>): appends output rather than replacing (nothing is overwritten)
 
+<img width="867" height="402" alt="image" src="https://github.com/user-attachments/assets/3cd721ea-9932-4fc4-aba8-9580ad79d0e7" />
+
+Playing with operator redirector and noticing the difference between overwritten and not overwritten
+
+
 
 
 
