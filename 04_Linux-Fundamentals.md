@@ -2,11 +2,57 @@
 
 Linux is just another operating system helps power cars, devices, appliances, servers
 
-## A but of Background on Linux
+## A bit of Background on Linux
 
 Linux is a lot more intimidating to approach than OS's like windows, critical infrastructure like traffic controllers, websites
 
 Linus is actually an umbrella term for multiple OS's basex on UNIX (another operating system), Linux comes in all shapes and sizes, suited best for what systems used for, founded 1991
+
+## Running your first few commands
+
+echo: output any text that we provide (helps with debugging) (if you don't have spaces no need to do quotes)
+
+whoami: tells us user we're logged into
+
+using terminal is purely text based since no GUI
+
+<img width="704" height="210" alt="image" src="https://github.com/user-attachments/assets/816781c6-9472-4639-8952-aa57dcdb057a" />
+
+## Interacting with the Filesystem
+
+ls: listing (you cana list contents of a directory without having to navigate to it)
+
+cd: change directory
+
+cat: concatenate
+
+pwd: print working directory
+
+
+Ctrl + L clear terminal
+
+<img width="1072" height="742" alt="image" src="https://github.com/user-attachments/assets/21789849-3022-41e2-8b29-310c0b8fe35d" />
+
+<img width="902" height="525" alt="image" src="https://github.com/user-attachments/assets/69e9ed5a-d854-4c99-9592-2c3c7f28af06" />
+
+In image above, shows me understanding how to go change directory, using ls to figure out what is on the system, from there ls folders to see file, cat folders to see it's content, and cd folder and pwd to find new current working directiory
+
+## Searching for Files
+
+find helps look for specific files, * help search for anything with (.txt)
+
+grep to search entire contents of this file for any entries of the value we are searching for
+
+<img width="1468" height="152" alt="image" src="https://github.com/user-attachments/assets/7e325b59-b302-4c43-9cd3-03cf44dc3ad5" />
+
+
+
+
+
+
+
+
+
 
 
 
