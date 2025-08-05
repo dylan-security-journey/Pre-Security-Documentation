@@ -59,6 +59,10 @@ grep to search entire contents of this file for any entries of the value we are 
 
 Playing with operator redirector and noticing the difference between overwritten and not overwritten
 
+## Accessing Your Linux Machine Using SSH (Deploy)
+
+Secure Shell (SSH) common means of connecting to and interacting with command line of a remote Linux machine, protocol between devices in a encrypted form from readable format to encrypted traveling over network
+
 
 
 
