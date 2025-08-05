@@ -92,6 +92,16 @@ In the image above using (-l) command to find owner within the list and director
 
 <img width="371" height="209" alt="image" src="https://github.com/user-attachments/assets/bc3d9794-865f-42ff-b578-7d3966c44257" />
 
+## Common Directories
+
+(/etc) store system files
+
+(/var) stores data that is frequently accessed (/var/log)
+
+(/root) document and home directory 
+
+(/tmp) store data that is only needed to be accessed once or twice (similar to how ram works)
+
 
 
 
