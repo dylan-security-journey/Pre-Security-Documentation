@@ -63,13 +63,23 @@ Playing with operator redirector and noticing the difference between overwritten
 
 Secure Shell (SSH) common means of connecting to and interacting with command line of a remote Linux machine, protocol between devices in a encrypted form from readable format to encrypted traveling over network
 
-Command	Full Name	Purpose
-touch	touch	Create file
-mkdir	make directory	Create a folder
-cp	copy	Copy a file or folder
-mv	move	Move a file or folder
-rm	remove	Remove a file or folder
-file	file	Determine the type of a file
+SSH command followed by credentials and IP address
+
+<img width="529" height="68" alt="image" src="https://github.com/user-attachments/assets/ab90560f-1128-457e-9276-ed071950182a" />
+
+## Filesystem interaction
+
+touch	(touch)	Create file
+
+mkdir	(make directory)	Create a folder
+
+cp	(copy)	Copy a file or folder
+
+mv	(move)	Move a file or folder
+
+rm	(remove)	Remove a file or folder
+
+file	(file)	Determine the type of a file
 
 
 
