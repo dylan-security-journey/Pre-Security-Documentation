@@ -81,6 +81,16 @@ rm	(remove)	Remove a file or folder
 
 file	(file)	Determine the type of a file
 
+<img width="426" height="218" alt="image" src="https://github.com/user-attachments/assets/ea1f3206-d245-4eb9-812d-f9cf0cbc4aff" />
+
+## Permission 101
+
+<img width="545" height="266" alt="image" src="https://github.com/user-attachments/assets/cb247c00-8845-4cf9-a2e4-87c5a9c87a99" />
+
+In the image above using (-l) command to find owner within the list and directories as well as (cat) to sese contents and switching to user2
+
+
+<img width="371" height="209" alt="image" src="https://github.com/user-attachments/assets/bc3d9794-865f-42ff-b578-7d3966c44257" />
 
 
 
