@@ -108,6 +108,33 @@ Nano benefits are searching text, copying and pasting, jumping line number, find
 
 <img width="302" height="132" alt="image" src="https://github.com/user-attachments/assets/8019ffb5-5561-4af4-8516-4eb3700de770" />
 
+## General/Useful Utilities
+
+Downloading files via wget 
+
+## Processes 101
+
+Use control + z to background a process
+
+systemctl
+
+fg to open up previous back process
+
+## Maintaining your system: Automation
+
+crontabs is one processes that is startd during boot
+
+## Maintaining Your System: Logs
+
+
+<img width="1287" height="79" alt="image" src="https://github.com/user-attachments/assets/1a22423d-853a-4d5d-83e2-daa9db4d23d5" />
+
+Checking on IP and file they access through changing directory then ls to see files inside directory, and proceeded to check with ls -l and finished with less to see specific logs
+
+
+
+
+
 
 
 
