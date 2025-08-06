@@ -102,6 +102,11 @@ In the image above using (-l) command to find owner within the list and director
 
 (/tmp) store data that is only needed to be accessed once or twice (similar to how ram works)
 
+## Terminal Text Editors
+
+Nano benefits are searching text, copying and pasting, jumping line number, finding out what line number you are on
+
+<img width="302" height="132" alt="image" src="https://github.com/user-attachments/assets/8019ffb5-5561-4af4-8516-4eb3700de770" />
 
 
 
