@@ -24,3 +24,11 @@ You can check other users and also use run function by typing (lusrmgr.msc) to s
 
 <img width="946" height="582" alt="image" src="https://github.com/user-attachments/assets/cf85a2a6-10e8-462a-a39c-3d114f92a1d0" />
 
+User Account control helps prevent standard user accounts from abusing privileges and require administrator control to download some software (shield icon)
+
+<img width="88" height="86" alt="image" src="https://github.com/user-attachments/assets/0f419a5e-405a-4e25-af18-ffcf99b9ae8d" />
+
+Control Panel and Settings are main places to make changes to system
+
+Task Manager provides information on usage of ram or cpu as well as applications and processes running on system
+
