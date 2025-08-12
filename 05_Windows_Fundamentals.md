@@ -32,3 +32,27 @@ Control Panel and Settings are main places to make changes to system
 
 Task Manager provides information on usage of ram or cpu as well as applications and processes running on system
 
+Command for troubleshooting: (C:\Windows\System32\control.exe /name Microsoft.Troubleshooting)
+
+<img width="560" height="380" alt="image" src="https://github.com/user-attachments/assets/3f760d99-a10c-464d-8ebc-63dbe69a4723" />
+
+System configuration section is for advanced troubleshooting and help diagnose issues related to startup
+
+control panel is related to system properties tool (control.exe)
+
+User Access Control (UAC) should never be turned off and command from System Configuration (UserAccountControlSettings.exe)
+
+<img width="964" height="684" alt="image" src="https://github.com/user-attachments/assets/6378fe05-7013-4322-859b-4471790c87cb" />
+
+<img width="973" height="697" alt="image" src="https://github.com/user-attachments/assets/333943eb-cb7f-40d5-894c-065969c050f8" />
+
+<img width="937" height="446" alt="image" src="https://github.com/user-attachments/assets/8eeb095d-1334-40b9-b021-a8cebe917838" />
+
+<img width="934" height="308" alt="image" src="https://github.com/user-attachments/assets/60e94683-fd13-4810-8c29-5fc8410ed3d8" />
+
+<img width="990" height="704" alt="image" src="https://github.com/user-attachments/assets/470c30df-d279-4c11-8754-5d2ad3801634" />
+
+
+
+
+
