@@ -52,7 +52,18 @@ User Access Control (UAC) should never be turned off and command from System Con
 
 <img width="990" height="704" alt="image" src="https://github.com/user-attachments/assets/470c30df-d279-4c11-8754-5d2ad3801634" />
 
+<img width="1199" height="1114" alt="image" src="https://github.com/user-attachments/assets/afb45b40-11c3-4a77-8a83-e0545c2c0298" />
 
+<img width="1305" height="956" alt="image" src="https://github.com/user-attachments/assets/af8fe56b-e9fc-4224-ad24-c812e48c4060" />
 
+simple commands in command prompt like hostname or whoami
+
+/? can be applied to all commands as a help manual
+
+cls can clear the command prompt screen
+
+<img width="923" height="474" alt="image" src="https://github.com/user-attachments/assets/60f19627-df5d-4f73-aa3e-d5b1b061bf28" />
+
+current network connections 
 
 
