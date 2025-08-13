@@ -78,3 +78,5 @@ configuring the firewall through advanced settings
 <img width="406" height="491" alt="image" src="https://github.com/user-attachments/assets/bb918cc8-6af3-46b6-89c5-69c124f8e8ec" />
 
 Trusted Platform Module helps provide hardware with security tool functions
+
+startup key should be used when TPM 1.2 version isn't being used on current system 
