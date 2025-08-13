@@ -70,5 +70,6 @@ current network connections
 
 In the image above you can see the apps that are allowed throught the firewall and whether public or private
 
+<img width="1029" height="774" alt="image" src="https://github.com/user-attachments/assets/af58705b-e4d7-4b09-8a05-b3c413b6e9de" />
 
-
+configuring the firewall through advanced settings
