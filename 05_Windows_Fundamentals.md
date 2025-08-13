@@ -66,4 +66,9 @@ cls can clear the command prompt screen
 
 current network connections 
 
+<img width="1100" height="627" alt="image" src="https://github.com/user-attachments/assets/f0c59e0d-3c7a-4e65-a50e-8ef0104008ca" />
+
+In the image above you can see the apps that are allowed throught the firewall and whether public or private
+
+
 
