@@ -80,3 +80,45 @@ configuring the firewall through advanced settings
 Trusted Platform Module helps provide hardware with security tool functions
 
 startup key should be used when TPM 1.2 version isn't being used on current system 
+
+<img width="356" height="495" alt="image" src="https://github.com/user-attachments/assets/f62afea5-8a47-4496-812f-08baf8c51325" />
+
+Volume Shadow Copy Services help with creating a backup for data in that point in time for offline backup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
