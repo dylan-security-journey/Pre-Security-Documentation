@@ -73,3 +73,8 @@ In the image above you can see the apps that are allowed throught the firewall a
 <img width="1029" height="774" alt="image" src="https://github.com/user-attachments/assets/af58705b-e4d7-4b09-8a05-b3c413b6e9de" />
 
 configuring the firewall through advanced settings
+
+
+<img width="406" height="491" alt="image" src="https://github.com/user-attachments/assets/bb918cc8-6af3-46b6-89c5-69c124f8e8ec" />
+
+Trusted Platform Module helps provide hardware with security tool functions
