@@ -1,135 +1,59 @@
-## Introduction
+# Linux Fundamentals
 
-Linux is just another operating system helps power cars, devices, appliances, servers
+---
 
-## A bit of Background on Linux
+## 1. Introduction
+- **Linux** → Operating system powering cars, appliances, servers, critical infrastructure, and websites.  
+- Built on **UNIX** principles.  
+- Founded in **1991**, Linux comes in many distributions tailored for specific use cases.  
 
-Linux is a lot more intimidating to approach than OS's like windows, critical infrastructure like traffic controllers, websites
+---
 
-Linus is actually an umbrella term for multiple OS's basex on UNIX (another operating system), Linux comes in all shapes and sizes, suited best for what systems used for, founded 1991
+## 2. First Commands
+- `echo "text"` → Output text (useful for debugging).  
+- `whoami` → Displays current user.  
+- CLI = text-based interface (no GUI).  
 
-## Running your first few commands
+<img src="https://github.com/user-attachments/assets/816781c6-9472-4639-8952-aa57dcdb057a" width="600" />
 
-echo: output any text that we provide (helps with debugging) (if you don't have spaces no need to do quotes)
+---
 
-whoami: tells us user we're logged into
+## 3. Interacting with the Filesystem
+- `ls` → List directory contents.  
+- `cd` → Change directory.  
+- `cat` → Read file contents.  
+- `pwd` → Print current directory.  
+- `Ctrl + L` → Clear terminal.  
 
-using terminal is purely text based since no GUI
+<img src="https://github.com/user-attachments/assets/21789849-3022-41e2-8b29-310c0b8fe35d" width="600" />  
+<img src="https://github.com/user-attachments/assets/69e9ed5a-d854-4c99-9592-2c3c7f28af06" width="600" />
 
-<img width="704" height="210" alt="image" src="https://github.com/user-attachments/assets/816781c6-9472-4639-8952-aa57dcdb057a" />
+---
 
-## Interacting with the Filesystem
+## 4. Searching for Files
+- `find` → Locate files (e.g., `*.txt`).  
+- `grep` → Search contents inside files.  
 
-ls: listing (you cana list contents of a directory without having to navigate to it)
+<img src="https://github.com/user-attachments/assets/7e325b59-b302-4c43-9cd3-03cf44dc3ad5" width="600" />
 
-cd: change directory
+---
 
-cat: concatenate
+## 5. Shell Operators
+- `&` → Run command in background.  
+- `&&` → Run multiple commands in sequence.  
+- `>` → Redirect output (overwrite).  
+- `>>` → Append output (no overwrite).  
 
-pwd: print working directory
+<img src="https://github.com/user-attachments/assets/867c8819-9932-4fc4-aba8-9580ad79d0e7" width="600" />
 
+---
 
-Ctrl + L clear terminal
-
-<img width="1072" height="742" alt="image" src="https://github.com/user-attachments/assets/21789849-3022-41e2-8b29-310c0b8fe35d" />
-
-<img width="902" height="525" alt="image" src="https://github.com/user-attachments/assets/69e9ed5a-d854-4c99-9592-2c3c7f28af06" />
-
-In image above, shows me understanding how to go change directory, using ls to figure out what is on the system, from there ls folders to see file, cat folders to see it's content, and cd folder and pwd to find new current working directiory
-
-## Searching for Files
-
-find helps look for specific files, * help search for anything with (.txt)
-
-grep to search entire contents of this file for any entries of the value we are searching for
-
-<img width="1468" height="152" alt="image" src="https://github.com/user-attachments/assets/7e325b59-b302-4c43-9cd3-03cf44dc3ad5" />
-
-## An Introduction to Shell Operators
-
-&: allows to run commands in background of terminal
-
-&&: allows combine multiple commands together in one line of your terminal
-
-(>): redirector, take output from command and direct it elsewhere
-
-(>>): appends output rather than replacing (nothing is overwritten)
-
-<img width="867" height="402" alt="image" src="https://github.com/user-attachments/assets/3cd721ea-9932-4fc4-aba8-9580ad79d0e7" />
-
-Playing with operator redirector and noticing the difference between overwritten and not overwritten
-
-## Accessing Your Linux Machine Using SSH (Deploy)
-
-Secure Shell (SSH) common means of connecting to and interacting with command line of a remote Linux machine, protocol between devices in a encrypted form from readable format to encrypted traveling over network
-
-SSH command followed by credentials and IP address
-
-<img width="529" height="68" alt="image" src="https://github.com/user-attachments/assets/ab90560f-1128-457e-9276-ed071950182a" />
-
-## Filesystem interaction
-
-touch	(touch)	Create file
-
-mkdir	(make directory)	Create a folder
-
-cp	(copy)	Copy a file or folder
-
-mv	(move)	Move a file or folder
-
-rm	(remove)	Remove a file or folder
-
-file	(file)	Determine the type of a file
-
-<img width="426" height="218" alt="image" src="https://github.com/user-attachments/assets/ea1f3206-d245-4eb9-812d-f9cf0cbc4aff" />
-
-## Permission 101
-
-<img width="545" height="266" alt="image" src="https://github.com/user-attachments/assets/cb247c00-8845-4cf9-a2e4-87c5a9c87a99" />
-
-In the image above using (-l) command to find owner within the list and directories as well as (cat) to sese contents and switching to user2
-
-
-<img width="371" height="209" alt="image" src="https://github.com/user-attachments/assets/bc3d9794-865f-42ff-b578-7d3966c44257" />
-
-## Common Directories
-
-(/etc) store system files
-
-(/var) stores data that is frequently accessed (/var/log)
-
-(/root) document and home directory 
-
-(/tmp) store data that is only needed to be accessed once or twice (similar to how ram works)
-
-## Terminal Text Editors
-
-Nano benefits are searching text, copying and pasting, jumping line number, finding out what line number you are on
-
-<img width="302" height="132" alt="image" src="https://github.com/user-attachments/assets/8019ffb5-5561-4af4-8516-4eb3700de770" />
-
-## General/Useful Utilities
-
-Downloading files via wget 
-
-## Processes 101
-
-Use control + z to background a process
-
-systemctl
-
-fg to open up previous back process
-
-## Maintaining your system: Automation
-
-crontabs is one processes that is startd during boot
-
-## Maintaining Your System: Logs
-
-
-<img width="1287" height="79" alt="image" src="https://github.com/user-attachments/assets/1a22423d-853a-4d5d-83e2-daa9db4d23d5" />
-
-Checking on IP and file they access through changing directory then ls to see files inside directory, and proceeded to check with ls -l and finished with less to see specific logs
+## 6. SSH (Secure Shell)
+- Used to connect to remote Linux machines securely.  
+- Encrypts traffic over the network.  
+- Syntax:  
+  ```bash
+  ssh user@ip_address
 
 
 
